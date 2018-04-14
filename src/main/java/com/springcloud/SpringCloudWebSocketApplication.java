@@ -2,13 +2,18 @@ package com.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.socket.config.annotation.EnableWebSocket;
 
+/**
+ * 程序入口
+ *
+ * @author 林锋
+ * @email 904303298@qq.com
+ * @create 2018-04-13 13:08
+ **/
 @SpringBootApplication
-@EnableWebSocket
-public class SpringcloudWebsocketApplication {
+public class SpringCloudWebSocketApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringcloudWebsocketApplication.class, args);
+        SpringApplication.run(SpringCloudWebSocketApplication.class, args);
     }
 }
